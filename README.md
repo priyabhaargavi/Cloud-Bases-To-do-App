@@ -13,7 +13,7 @@ A simple cloud-based to-do app that allows you to store and manage planned activ
 
 - **Frontend**:
   - HTML, CSS, JavaScript
-  - 
+  
 - **Backend**:
   - **Flask**: Python web framework for handling backend logic.
   
