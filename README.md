@@ -2,51 +2,61 @@
 
 A simple cloud-based to-do app that allows you to store and manage planned activities. The app syncs tasks across devices using Firebase and is built with a Flask backend.
 
-*FEATURES*
-Task Management: Add and remove planned tasks.
-Cloud Sync: All your tasks are stored in Firebase and synced across devices.
-User Authentication: Secure login and registration via Firebase Authentication.
-Simple Interface: Focuses solely on planned activities without any unnecessary complexity.
-Technologies Used
-Frontend:
+## Features
 
-*HTML, CSS, JavaScript*
-Vanilla JS or any other JS framework you may have used (React, Vue, etc.)
-Backend:
+- **Task Management**: Add and remove planned tasks.
+- **Cloud Sync**: All your tasks are stored in Firebase and synced across devices.
+- **User Authentication**: Secure login and registration via Firebase Authentication.
+- **Simple Interface**: Focuses solely on planned activities without any unnecessary complexity.
 
-Flask: Python web framework for handling backend logic.
-Database:
+## Technologies Used
 
-Firebase Realtime Database for storing user tasks.
-Authentication:
+- **Frontend**:
+  - HTML, CSS, JavaScript
+  - 
+- **Backend**:
+  - **Flask**: Python web framework for handling backend logic.
+  
+- **Database**:
+  - **Firebase Realtime Database** for storing user tasks.
 
-Firebase Authentication for secure user sign-ups and logins.
-Demo
-Image
+- **Authentication**:
+  - **Firebase Authentication** for secure user sign-ups and logins.
 
-*Installation*
+## OUTPUT
+
+![Image](https://github.com/user-attachments/assets/f7048768-ad93-4ec7-acfb-751b45ce8bfa)
+
+## Installation
+
 To run the project locally, follow these steps:
 
-Clone the repository:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/cloud-todo-app.git
+    cd cloud-todo-app
+    ```
 
-https://github.com/Harshipilot/cloud-todo-app.git
-cd cloud-todo-app
-Install the frontend dependencies (if any):
+2. Install the frontend dependencies (if any):
+    ```bash
+    npm install
+    ```
 
-pip install
-Install the backend dependencies:
+3. Install the backend dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-pip install -r requirements.txt
-Set up Firebase:
+4. Set up Firebase:
+    - Go to [Firebase Console](https://console.firebase.google.com/).
+    - Create a new project and add the Firebase credentials to your app (either in a config file or environment variables).
+    - Set up Firebase Authentication and Realtime Database.
 
-Go to Firebase Console.
-Create a new project and add the Firebase credentials to your app (either in a config file or environment variables).
-Set up Firebase Authentication and Realtime Database.
-Run the Flask app locally:
+5. Run the Flask app locally:
+    ```bash
+    python app.py
+    ```
 
-python app.py
-The app should now be running on http://localhost:5000.
+The app should now be running on `http://localhost:5000`.
 
 
-*OUTPUT :*
-![Image](https://github.com/user-attachments/assets/f7048768-ad93-4ec7-acfb-751b45ce8bfa)
