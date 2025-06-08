@@ -13,6 +13,7 @@ A simple cloud-based to-do app that allows you to store and manage planned activ
 
 - **Frontend**:
   - HTML, CSS, JavaScript
+  - [Vanilla JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) or any other JS framework you may have used (React, Vue, etc.)
   
 - **Backend**:
   - **Flask**: Python web framework for handling backend logic.
@@ -33,13 +34,13 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/cloud-todo-app.git
+    git clone https://github.com/priyabhaargavi/cloud-todo-app.git
     cd cloud-todo-app
     ```
 
 2. Install the frontend dependencies (if any):
     ```bash
-    npm install
+    pip install
     ```
 
 3. Install the backend dependencies:
