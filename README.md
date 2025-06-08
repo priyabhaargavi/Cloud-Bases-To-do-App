@@ -1,4 +1,4 @@
-# Cloud-Bases-To-do-App
+# cloud-todo-app
 
 A simple cloud-based to-do app that allows you to store and manage planned activities. The app syncs tasks across devices using Firebase and is built with a Flask backend.
 
